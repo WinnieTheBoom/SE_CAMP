@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+<body>
+    
+    <Body background="https://images.wallpaperscraft.com/image/single/christmas_tree_christmas_decorations_branch_115019_1600x900.jpg"></Body>
+   <center><h1>Workshop #HTML - FORM</h1></center>
+    <form action="#">
+        <center>
+            <table>
+                <tr>
+                    <td>ชื่อ</td>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <td id="sakun">สกุล</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>วัน/เดือน/ปีเกิด</td>
+                    <td><input type="date" /></td>
+                </tr>
+                <tr>
+                    <td>อายุ</td>
+                    <td>
+                        <input type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>เพศ</td>
+                    <td>
+                        <input id="gender_A"
+                            type="radio" 
+                            name="gender"/>
+                        <label for="gender_A">ชาย</label>
+                        <input id="gender_A"
+                                type="radio" 
+                                name="gender" />
+                        <label for="gender_A">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>รูป</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>ที่อยู่</td>
+                    <td><textarea rows="4" 
+                    placeholder="กรุณาป้อนข้อมูล"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>สีที่ชอบ</td>
+                    <td>
+                        <select>
+                            <option 
+                            value=""
+                            disabled 
+                            selected>ไม่มี</option>
+                            <option>ม่วง</option>
+                            <option>คราม</option>
+                            <option>น้ำเงิน</option>
+                            <option>เขียว</option>
+                            <option>เหลือง</option>
+                            <option>แสด</option>
+                            <option>แดง</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>แนวเพลงที่ชอบ</td>
+                    <td>
+                        <input id="Music_A"
+                        type="radio"
+                        name="Music"/>
+                        <label for="Music_A">เพื่อชีวิต</label>
+                        <input id="Music_A"
+                        type="radio"
+                        name="Music"/>
+                        <label for="Music_A">ลูกทุ่ง</label>
+                        <input id="Music_A"
+                        type="radio"
+                        name="Music"/>
+                        <label for="Music_A">ลูกกรุง</label>
+                        <input id="Music_A"
+                        type="radio"
+                        name="Music"/>
+                        <label for="Music_A">ลูกไก่</label>
+                        <input id="Music_A"
+                        type="radio"
+                        name="Music"/>
+                        <label for="Music_A">อื่นๆ</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><br>
+                        <input type="checkbox"
+                            name="my_checkbox">ยินยอมให้เก็บข้อมูล
+                    
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td><br>
+                        <button type="reset">Reset</button>
+                    </td>
+                    <td><br>
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br><br><br>
+    </form>
+</body>
+</html>
