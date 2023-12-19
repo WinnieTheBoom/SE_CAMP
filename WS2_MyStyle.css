@@ -4,13 +4,14 @@
     width: 400px;
     height: 400px;
     color: rgb(255, 255, 255);
-    background-color:rgb(88, 90, 88);
+    background-color:rgb(182, 0, 42);
     text-align: center;
-    border: 5px dashed rgb(0,255,0);
+    border: 5px dashed rgb(234, 255, 0);
     padding-top: 10px;
     margin: 50px 25px;
  }
  
  .box:hover{
-    background-color:rgb(118, 11, 82);
+    background-color:rgb(2, 161, 18);
+    box-shadow: 15px 10px rgba(33, 33, 33, .2);
  }
