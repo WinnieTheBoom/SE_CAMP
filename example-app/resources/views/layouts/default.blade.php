@@ -240,6 +240,15 @@
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
+            <html>
+                <body>
+                    <div class="container">
+                        <a href="login" class="btn btn-info btn-sm">
+                          <span class="glyphicon glyphicon-log-out"></span> Log out
+                        </a>
+                    </div>
+                </body>
+            </html>
             <!-- /.sidebar -->
         </aside>
 
