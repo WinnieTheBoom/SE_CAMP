@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ url('assets/plugins/fontawesome-free/css/all.min.css') }}">
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="{{ url('assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ url('assets/dist/css/adminlte.min.css') }}">
 </head>
@@ -27,10 +29,13 @@
                             class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="/titles" class="nav-link">SE CAME</a>
                 </li>
-                <li class="nav-item d-none d-sm-inline-block">
+                {{-- <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
+                </li> --}}
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="/multiplication" class="nav-link">Multiplication</a>
                 </li>
             </ul>
 
@@ -154,9 +159,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"
-                        role="button">
-                        <i class="fas fa-th-large"></i>
+
+                    <a class="nav-link" data-slide="true" href="/logout" role="button">
+                        <i class="fas fa-sign-out-alt"></i>
+                        {{-- <i class="fas fa-th-large"></i> --}}
                     </a>
                 </li>
             </ul>
@@ -240,15 +246,6 @@
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
-            <html>
-                <body>
-                    <div class="container">
-                        <a href="login" class="btn btn-info btn-sm">
-                          <span class="glyphicon glyphicon-log-out"></span> Log out
-                        </a>
-                    </div>
-                </body>
-            </html>
             <!-- /.sidebar -->
         </aside>
 
@@ -287,8 +284,11 @@
     <script src="{{ url('assets/plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4 -->
     <script src="{{ url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <!-- SweetAlert2 -->
+    <script src="{{ url('assets/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
     <!-- AdminLTE App -->
     <script src="{{ url('assets/dist/js/adminlte.min.js') }}"></script>
+    @yield('js')
 </body>
 
 </html>
