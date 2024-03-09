@@ -32,7 +32,7 @@
                     `<h4 class="my_gen_number ,text text-center">${my_number + " * " + i + " = " + (i) * my_number }</h4>`
                     );
             }
-            console.log(document.getElementById("เลที่กรอก : " + 'my_number').value);
+            console.log(document.getElementById("เลขที่กรอก : " + 'my_number').value);
 
         }
     </script>
